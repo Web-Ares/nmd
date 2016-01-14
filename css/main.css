@@ -551,3 +551,45 @@
     background-position: center;
     background-repeat: no-repeat;
 }/* ------------- /gallery ------------- */
+
+/* ------------- productions ------------- */
+.productions{
+
+}
+.productions>div{
+    height: 246px;
+    width: 100%;
+
+}
+.productions>div>div, .productions>div>div>div{
+    display: inline-block;
+    background-size: cover;
+}
+
+.productions>div:nth-child(even)>div:nth-child(1){
+    width: 408px;
+    height: 246px;
+}
+.productions>div:nth-child(even)>div{
+    width: 605px;
+    height: 246px;
+    vertical-align: top;
+}
+.productions>div:nth-child(odd)>div:nth-child(1){
+    width: 605px;
+    height: 246px;
+    vertical-align: top;
+}
+.productions>div:nth-child(odd)>div{
+    width: 408px;
+    height: 246px;
+}
+.productions>div:nth-child(odd)>div>div{
+    width: 408px;
+    height: 123px;
+}
+.productions>div:nth-child(even)>div:nth-child(1)>div{
+    width: 408px;
+    height: 123px;
+}
+/* ------------- /productions ------------- */
