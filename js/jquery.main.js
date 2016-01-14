@@ -54,6 +54,17 @@ var Slider = function (obj) {
         });
 
     }
+    if (_obj.hasClass('news__wrap')) {
+        var _slider1 = new Swiper(_obj, {
+            nextButton: '.news__next',
+            prevButton: '.news__prev',
+            loop: true
+
+
+
+        });
+
+    }
 
     //public properties
 
