@@ -38,10 +38,32 @@ var Slider = function (obj) {
             prevButton: '.gallery__prev',
             spaceBetween:20,
             loop: true,
-            slidesPerView: 4,
+            slidesPerView: 5,
             breakpoints: {
                 1024: {
-                    slidesPerView: 3
+                    slidesPerView: 4
+                },
+                767: {
+                    slidesPerView: 2
+                },
+                500: {
+                    slidesPerView: 1
+                }
+            }
+
+        });
+
+    }
+    if (_obj.hasClass('customer__wrap')) {
+        var __slider = new Swiper(_obj, {
+            nextButton: '.customer__next',
+            prevButton: '.customer__prev',
+            spaceBetween:20,
+            loop: true,
+            slidesPerView: 5,
+            breakpoints: {
+                1024: {
+                    slidesPerView: 4
                 },
                 767: {
                     slidesPerView: 2
