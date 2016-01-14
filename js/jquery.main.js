@@ -58,9 +58,9 @@ var Slider = function (obj) {
         var _slider1 = new Swiper(_obj, {
             nextButton: '.news__next',
             prevButton: '.news__prev',
-            loop: true
-
-
+            pagination: '.news__pagination',
+            loop: true,
+            paginationClickable: true
 
         });
 

@@ -343,6 +343,10 @@
     background: #6b778e;
     opacity: .7;
     display: inline-block;
+    position: absolute;
+    top: 260px;
+    left: 11px;
+    z-index: 4;
 }
 .news__controll>div{
     position: relative;
@@ -370,5 +374,14 @@
     top: 8px;
     left: 20px;
     background-position: -13px 0px;
+}
+.news__item{
+    height: 320px;
+    width: 100%;
+}
+.news__item a{
+    width: 1024px;
+    height: 320px;
+    display: inline-block;
 }
 /* ------------- /news ------------- */
