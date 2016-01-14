@@ -206,6 +206,30 @@
 
 /* --------------- /site --------------- */
 
+/* --------------- header__menu--------------- */
+.header__menu{
+    position: relative;
+    margin-top: 25px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.header__menu>ul{
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+}
+.header__menu>ul li{
+    display: table-cell;
+    position: relative;
+}
+.header__menu>ul li a{
+    display: block;
+    text-align: center;
+    padding: 0 4px;
+}
+/* --------------- /header__menu --------------- */
+
 /* --------------- logo --------------- */
 .logo {
     position: absolute;
