@@ -41,7 +41,7 @@ var Slider = function (obj) {
             slidesPerView: 5,
             breakpoints: {
                 1024: {
-                    slidesPerView: 4
+                    slidesPerView: 3
                 },
                 767: {
                     slidesPerView: 2
@@ -50,7 +50,6 @@ var Slider = function (obj) {
                     slidesPerView: 1
                 }
             }
-
         });
 
     }
