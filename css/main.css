@@ -444,7 +444,6 @@ a.site__footer-address:hover:before {
 }
 /* ------------- /gallery ------------- */
 
-
 /* ------------- news ------------- */
 .news{
     position: relative;
@@ -640,6 +639,7 @@ a.site__footer-address:hover:before {
 
 /* ------------- productions ------------- */
 .productions{
+    margin-bottom: 50px;
 
 }
 .productions>div{
@@ -678,7 +678,7 @@ a.site__footer-address:hover:before {
     width: 408px;
     height: 123px;
 }
-/* ------------- /productions ------------- */}
+/* ------------- /productions ------------- */
 /* ------------- /customer ------------- */
 
 /* ------------- news-list ------------- */
