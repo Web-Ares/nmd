@@ -17,6 +17,53 @@
 </head>
 <body>
 
+<!-- popup -->
+<div class="popup">
+
+    <!-- popup__wrap -->
+    <form class="popup__wrap">
+
+        <h2>оставить заявку</h2>
+
+        <div class="popup__close"></div>
+
+        <fieldset>
+            <label for="pop1">ФИО <span>*</span></label>
+            <input id="pop1" type="text" placeholder="" required="">
+        </fieldset>
+
+        <fieldset>
+            <label for="pop2">Название предприятия <span>*</span></label>
+            <input id="pop2" type="text" placeholder="">
+        </fieldset>
+
+        <fieldset>
+            <label for="pop3">Номер телефона <span>*</span></label>
+            <input id="pop3" type="tel" placeholder="+7">
+        </fieldset>
+
+        <fieldset>
+            <label for="pop4">Ваше сообщение</label>
+            <textarea name="massage" id="pop4" placeholder=""></textarea>
+        </fieldset>
+
+        <fieldset class="popup__from-pic">
+            <label for="pop5">Введите символы с картинки <span>*</span></label>
+            <input name="massage" id="pop5" placeholder="">
+        </fieldset>
+
+        <div class="popup-pic" style="background-image: url(pic/popup-pic.png)"></div>
+
+        <span><span>*</span> - Поля обязательные для заполнения</span>
+
+        <input class="popup__send site__btn" type="submit" value="отправить">
+
+    </form>
+    <!-- /popup__wrap -->
+
+</div>
+<!-- popup -->
+
     <div class="site">
 
         <header class="site__header">
@@ -25,7 +72,7 @@
 
             <!--site__header-feedback-->
             <div class="site__header-feedback">
-                <a href="mailto:123@mail.ru" class="feedback-message">отправить заявку</a>
+                <a href="#" class="feedback-message">отправить заявку</a>
                 <a href="tel:12312421341" class="feedback-call">заказать звонок
                 </a>
             </div>
@@ -33,8 +80,8 @@
 
             <!--site__header-contacts-->
             <div class="site__header-contacts">
-                <div>Тел.: (347) 246 25 03</div>
-                <div>Факс: (347) 246 25 13</div>
+                <div><a href="tel:+3472462503">Тел.: (347) 246 25 03</a></div>
+                <div><a href="tel:+3472462503">Факс.: (347) 246 25 03</a></div>
                 <div>E-mail:<a href="mailto:123@mail.ru" class="contacts-email-link">123@mail.ru</a></div>
             </div>
             <!--/site__header-contacts-->
@@ -251,10 +298,8 @@
                         <div class="swiper-slide gallery__item">
 
                             <a href="pic/pic02.jpg" data-lightbox="roadtrip"><img src="pic/pic02.jpg" alt=""/></a>
-
                         </div>
                         <div class="swiper-slide gallery__item">
-
                             <a href="pic/pic03.jpg" data-lightbox="roadtrip"><img src="pic/pic03.jpg" alt=""/></a>
                         </div>
                         <div class="swiper-slide gallery__item">
@@ -285,7 +330,7 @@
                 <!-- news-list__item -->
                 <div class="news-list__item">
                     <div style="background-image: url(pic/news-list-pic.jpg)"></div>
-                    <time datetime="">13.09.2011</time>
+                    <time datetime="2011-09-13">13.09.2011</time>
                     <h3>Первая в России
                         герметичная
                         алюминиевая кровля</h3>
@@ -295,7 +340,7 @@
 
                 <div class="news-list__item">
                     <div style="background-image: url(pic/news-list-pic.jpg)"></div>
-                    <time datetime="">13.09.2011</time>
+                    <time datetime="2011-09-13">13.09.2011</time>
                     <h3>Первая в России
                         герметичная
                         алюминиевая кровля</h3>
@@ -305,7 +350,7 @@
 
                 <div class="news-list__item">
                     <div style="background-image: url(pic/news-list-pic.jpg)"></div>
-                    <time datetime="">13.09.2011</time>
+                    <time datetime="2011-09-13">13.09.2011</time>
                     <h3>Первая в России
                         герметичная
                         алюминиевая кровля</h3>
@@ -313,7 +358,6 @@
                     <a href="#">Подробнее »</a>
                 </div>
                 <!-- /news-list__item -->
-
 
             </div>
 
