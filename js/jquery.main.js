@@ -36,7 +36,6 @@ var Slider = function (obj) {
         var _slider = new Swiper(_obj, {
             nextButton: '.gallery__next',
             prevButton: '.gallery__prev',
-            spaceBetween:20,
             loop: true,
             slidesPerView: 5,
             breakpoints: {
@@ -57,7 +56,6 @@ var Slider = function (obj) {
         var __slider = new Swiper(_obj, {
             nextButton: '.customer__next',
             prevButton: '.customer__prev',
-            spaceBetween:20,
             loop: true,
             slidesPerView: 5,
             breakpoints: {
