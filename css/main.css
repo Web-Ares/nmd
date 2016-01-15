@@ -315,7 +315,7 @@ a.site__footer-address:hover:before {
 .site__content-wrap .site__title{
     text-align: left;
     margin-bottom: 27px;
-    padding-left: 4px;
+    padding-left: 2px;
 }
 /* --------------- /site --------------- */
 
@@ -576,7 +576,7 @@ a.site__footer-address:hover:before {
     position: relative;
     height: 100%;
 }
-.promo__review .news-title{
+.promo__review .promo-title{
     font-size: 24px;
     padding-bottom: 12px;
     border-bottom: 1px solid #245098;
@@ -808,6 +808,52 @@ a.site__footer-address:hover:before {
 }
 /* ------------- /productions ------------- */
 
+/* ------------- news ------------- */
+.news li{
+    margin-bottom: 11px;
+    padding: 9px 12px 14px;
+    background: url("../img/bg-news.jpg") #f1f1f1;
+    overflow: hidden;
+}
+.news__img{
+    float: left;
+    width: 103px;
+    height: 90px;
+    margin-top: 5px;
+    margin-right: 21px;
+    background-position: center;
+    background-size: cover;
+}
+.news__content{
+    font-size: 14px;
+    line-height: 18px;
+    overflow: hidden;
+}
+.news__content time{
+    font-size: 12px;
+}
+.news__title,
+.news__title > a{
+    padding: 11px 0 3px;
+    color: #385194;
+    text-transform: uppercase;
+}
+.news__more{
+    margin-top: 8px;
+    padding-bottom: 1px;
+}
+.news__more a{
+    color: #385194;
+    border-bottom: 1px solid #385194;
+    transition: border-bottom-color .3s ease;
+    -webkit-transition: border-bottom-color .3s ease;
+}
+.news__more a:hover{
+    text-decoration: none;
+    border-bottom-color: transparent;
+}
+/* ------------- /news ------------- */
+
 /* ------------- news-list ------------- */
 .news-list{
     margin-bottom: 44px;
@@ -859,6 +905,53 @@ a.site__footer-address:hover:before {
     text-decoration: none;
 }
 /* ------------- /news-list ------------- */
+
+/* --------------- paginator --------------- */
+.paginator{
+    padding: 24px 9px;
+    font-size: 14px;
+}
+.paginator a,
+.paginator span{
+    display: inline-block;
+    vertical-align: top;
+    height: 33px;
+    width: 33px;
+    margin-right: 8px;
+    padding: 10px 0;
+    text-align: center;
+}
+.paginator a{
+    color: #1d1d1d;
+    text-decoration: underline;
+}
+.paginator a:hover{
+    text-decoration: none;
+}
+.paginator span{
+    color: #fff;
+    background-color: #385194;
+}
+.paginator .paginator__next,
+.paginator .paginator__prev{
+    margin: 0 31px 20px;
+    text-indent: -99999px;
+    background: url("../img/icons-arrows.png") no-repeat 9px 50% #385194;
+    overflow: hidden;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease;
+}
+.paginator .paginator__prev{
+    display: none;
+}
+.paginator .paginator__next{
+    background-position: -16px 50%;
+}
+.paginator .paginator__next:hover,
+.paginator .paginator__prev:hover{
+    opacity: .7;
+}
+/* --------------- /paginator --------------- */
 
 /* --------------- popup --------------- */
 .popup {
