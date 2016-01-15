@@ -102,11 +102,11 @@ var Slider = function (obj) {
         });
 
     }
-    if (_obj.hasClass('news__wrap')) {
+    if (_obj.hasClass('promo__wrap')) {
         var _slider1 = new Swiper(_obj, {
-            nextButton: '.news__next',
-            prevButton: '.news__prev',
-            pagination: '.news__pagination',
+            nextButton: '.promo__next',
+            prevButton: '.promo__prev',
+            pagination: '.promo__pagination',
             loop: true,
             paginationClickable: true
 
