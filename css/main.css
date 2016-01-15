@@ -383,6 +383,8 @@ a.site__footer-address:hover:before {
 
 /* ------------- breadcrumps ------------- */
 .breadcrumps {
+    padding: 27px 0 22px;
+    font-size: 14px;
     color: #333;
 }
 .breadcrumps a{
