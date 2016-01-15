@@ -309,10 +309,10 @@ a.site__footer-address:hover:before {
 .site__header-search form .search-btn:hover{
     opacity: .7;
 }
-.site__content__wrap {
+.site__content-wrap {
     padding: 0 9px;
 }
-.site__content__wrap .site__title{
+.site__content-wrap .site__title{
     text-align: left;
     margin-bottom: 27px;
     padding-left: 4px;
