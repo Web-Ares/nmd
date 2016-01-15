@@ -291,7 +291,164 @@ a.site__footer-address:hover:before {
 .site__header-search form .search-btn:hover{
     opacity: .7;
 }
+.site__content-text{
+    margin-left: 10px;
+}
+.site__content-text h1, .site__content-text h2, .site__content-text h3, .site__content-text h4{
+    font-size: 18px;
+}
+.site__content-text h1{
+    color: #385194;
+    text-transform: uppercase;
+    width: 470px;
+    line-height: 23px;
+    margin-bottom: 13px;
+}
+.site__content-text h2{
+    color: #000;
+    margin-bottom: 9px;
+}
+.site__content-text h3{
+    color: #385194;
+    margin-bottom: 13px;
+}
+.site__content-text h4{
+    font-style: italic;
+    margin-bottom: 5px;
+    color: #385194;
+}
+.site__content-text p{
+    font-size: 14px;
+    letter-spacing: -0.1px;
+    line-height: 24px;
+    margin-bottom: 22px;
+    color: #222222;
+}
+.site__content-text ol{
+    list-style-type: decimal;
+}
+.site__content-text ul ul{
+    margin-top: 9px;
+    line-height: 28px;
+}
+.site__content-text>ul>li{
+    position: relative;
+    padding-left: 27px;
+    margin-bottom: 14px;
+}
+.site__content-text>ul>li:before{
+    position: absolute;
+    content: '';
+    width: 17px;
+    height: 12px;
+    background: url("../img/cheack-image.png");
+    left: 0;
+    top: 2px;
+    background-repeat: no-repeat;
+}
+.site__content-text ul ul li:before{
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 4px;
+    left: 2px;
+    top: 12px;
+    background-color: #245098;
+    border-radius: 11px;
+}
+.site__content-text>ul>li li{
+    position: relative;
+    padding-left: 16px;
+}
+.site__content-text ol{
+    counter-reset: li;
+    list-style: none;
+    margin-bottom: 25px;
+}
+.site__content-text ol>li{
+    position: relative;
+    padding-left: 14px;
+    line-height: 25px;
+    margin-top: 2px;
+}
+.site__content-text  .list-strong li .callback{
+    margin-left: -13px;
+}
+.site__content-text ol>li li{
+    line-height: 17px;
+    padding-left: 47px;
+    margin-bottom: 12px;
+}
+.site__content-text ol>li ol{
+    margin-top: 8px;
+    margin-bottom: 13px;
+}
+.site__content-text ol li:before{
+    counter-increment: li;
+    content: counters(li,".") "";
+    position: absolute;
+    left: 1px;
+    top: 2px;
+    padding: 0 6px;
+    background: #e7e7e7;
+    color: #385194;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.site__content-text ol li li:before{
+    margin-right: 7px;
+}
+.site__content-text ol>li {
+    position: relative;
+    padding-left: 27px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+.site__content-text table{
+    width: 1004px;
+    border: 1px solid #245098;
+    margin-bottom: 16px;
+}
+.site__content-text table thead tr{
+    height: 28px;
+    text-align: center;
+    color: #fff;
+    background: #245098;
+}
+.site__content-text table thead tr th{
+    vertical-align: middle;
+}
+.site__content-text table tbody tr td, .site__content-text table tbody tr th{
+    text-align: center;
+    vertical-align: middle;
+    padding: 16px 0 13px;
+    color: #000;
+    font-weight: 300;
+    font-size: 14px;
+    border: 1px solid #245098;
 
+}
+.site__content-text table tbody tr th{
+     background: #e8e8e8;
+     padding: 18px 0 16px;
+ }
+.site__content-text table tbody tr td{
+    border: 1px solid #245098;
+}
+.site__content-text a{
+    color: #245098;
+    text-decoration: underline;
+}
+.site__content-text .red{
+    font-weight: 700;
+    color: #de0000;
+}
+.site__content-text .blue{
+    color: #245098;
+    font-weight: 700;
+}
 /* --------------- /site --------------- */
 
 /* --------------- header__menu--------------- */
