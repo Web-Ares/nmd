@@ -692,6 +692,7 @@ a.site__footer-address:hover:before {
     padding-top: 28px;
     padding-left: 21px;
     padding-right: 64px;
+    text-decoration: none;
 }
 .productions>div .big-image{
     width: 604px;
