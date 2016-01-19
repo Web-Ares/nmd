@@ -470,6 +470,9 @@ a.site__footer-address:hover:before {
     color: #245098;
     text-decoration: underline;
 }
+.site__content-wrap a:hover{
+    text-decoration: none;
+}
 .site__content-wrap .red{
     font-weight: 700;
     color: #de0000;
@@ -511,8 +514,11 @@ a.site__footer-address:hover:before {
     -webkit-transition: background 300ms ease-in-out;
     transition: background 300ms ease-in-out;
 }
-
+.header__menu > ul > li:hover > a.active,
 .header__menu > ul > li:hover > a {
+    background: #122d5a;
+}
+.header__menu > ul > li > a.active{
     background: #122d5a;
 }
 .header__menu>ul li ul{
@@ -552,7 +558,7 @@ a.site__footer-address:hover:before {
 
 /* ------------- breadcrumps ------------- */
 .breadcrumps {
-    padding: 27px 10px 22px;
+    padding: 27px 0 22px;
     font-size: 14px;
     color: #385194;
 }
@@ -561,6 +567,9 @@ a.site__footer-address:hover:before {
     margin-right: 15px;
     color: #333;
     text-decoration: underline;
+}
+.breadcrumps a:hover{
+    text-decoration: none;
 }
 .breadcrumps a:after{
     content: '→';
@@ -1264,21 +1273,29 @@ fieldset.popup__from-pic input{
 /* --------------- /site__content-pic --------------- */
 
 /* --------------- product-list --------------- */
-.product-list{
+.product{
+    padding: 0;
+}
+.product__list{
     display: block;
     margin-bottom: 60px;
-    text-align: justify;
+    margin-left: -15px;
+    text-align: center;
 }
-.product-list li{
+.site__content-wrap .product__list li{
     display: inline-block;
     vertical-align: top;
     background-repeat: no-repeat;
     background-size: cover;
     width: 314px;
-    margin: 0 8px;
+    margin: 0 12px 13px;
     padding-top: 188px;
+    padding-left: 0;
 }
-.product-list li a{
+.site__content-wrap .product__list li:before{
+    display: none;
+}
+.product__list li a{
     display: block;
     background: rgba(56, 76, 115, 0.46);
     font-size: 24px;
@@ -1290,8 +1307,69 @@ fieldset.popup__from-pic input{
     transition: color .3s ease, background .3s ease;
     cursor: pointer;
 }
-.product-list li a:hover{
+.product__list li a:hover{
     color: #385194;
     background: #f5f5f5;
 }
+table.reserve{
+    width: auto;
+}
+.site__content-wrap table.reserve tr th{
+    background: transparent;
+    font-size: 18px;
+    color:#385194;
+    font-weight: 700;
+    padding: 18px 23px 14px;
+}
+.site__content-wrap table.reserve tr td{
+    padding: 7px 0 8px;
+}
+table.reserve tr th span{
+    display: block;
+}
 /* --------------- /product-list --------------- */
+
+/* --------------- reserve --------------- */
+.reserve-list{
+    display: block;
+    margin-bottom: 41px;
+}
+.site__content-wrap .reserve-list li{
+    display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 328px;
+    height: 248px;
+    margin: 0 3px 11px;
+}
+.site__content-wrap .reserve-list li:before{
+    display: none;
+}
+.reserve-load{
+    margin-bottom: 59px;
+}
+.reserve-load a{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 50px;
+    margin-left: 17px;
+    margin-bottom: 20px;
+}
+.reserve-load a:nth-child(odd){
+    margin-left: 0;
+}
+.reserve-load a:before{
+    content: "";
+    position: absolute;
+    background: url("../img/load-file.png") no-repeat;
+    background-size:contain;
+    width: 38px;
+    height: 38px;
+    top: -12px;
+    left: 0;
+}
+/* --------------- /reserve --------------- */
