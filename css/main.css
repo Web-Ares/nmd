@@ -1321,6 +1321,7 @@ fieldset.popup__from-pic input{
     text-align: center;
     color: #fff;
     padding: 18px 18px 27px;
+    text-decoration: none;
     transition: color .3s ease, background .3s ease;
     cursor: pointer;
 }
