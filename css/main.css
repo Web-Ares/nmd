@@ -326,7 +326,7 @@ a.site__footer-address:hover:before {
 .site__content-wrap h1{
     color: #385194;
     text-transform: uppercase;
-    width: 470px;
+    width: 480px;
     line-height: 23px;
     margin-bottom: 13px;
 }
@@ -572,7 +572,7 @@ a.site__footer-address:hover:before {
 
 /* ------------- breadcrumps ------------- */
 .breadcrumps {
-    padding: 27px 0 22px;
+    padding: 27px 2px 22px;
     font-size: 14px;
     color: #385194;
 }
@@ -977,6 +977,9 @@ a.site__footer-address:hover:before {
     background: url("../img/bg-news.jpg") #f1f1f1;
     overflow: hidden;
 }
+.news li:before{
+    display: none;
+}
 .news__img{
     float: left;
     width: 103px;
@@ -1006,7 +1009,6 @@ a.site__footer-address:hover:before {
 }
 .news__more a{
     color: #385194;
-    border-bottom: 1px solid #385194;
     transition: border-bottom-color .3s ease;
     -webkit-transition: border-bottom-color .3s ease;
 }
@@ -1288,13 +1290,13 @@ fieldset.popup__from-pic input{
 
 /* --------------- product-list --------------- */
 .product{
-    padding: 0;
+    padding: 0 6px;
 }
 .product__list{
     display: block;
     margin-bottom: 60px;
-    margin-left: -15px;
-    text-align: center;
+    text-align: justify;
+    margin-left: -7px;
 }
 .site__content-wrap .product__list li{
     display: inline-block;
@@ -1302,7 +1304,7 @@ fieldset.popup__from-pic input{
     background-repeat: no-repeat;
     background-size: cover;
     width: 314px;
-    margin: 0 12px 13px;
+    margin: 0 11px 13px;
     padding-top: 188px;
     padding-left: 0;
 }
