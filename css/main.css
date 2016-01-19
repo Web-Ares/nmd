@@ -320,9 +320,6 @@ a.site__footer-address:hover:before {
     margin-bottom: 27px;
     padding-left: 2px;
 }
-.site__content{
-    margin-left: 10px;
-}
 .site__content h1, .site__content h2, .site__content h3, .site__content h4{
     font-size: 18px;
 }
