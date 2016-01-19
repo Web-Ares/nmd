@@ -436,7 +436,7 @@ a.site__footer-address:hover:before {
     margin-bottom: 5px;
 }
 .site__content-wrap table{
-    width: 1004px;
+    width: 100%;
     border: 1px solid #245098;
     margin-bottom: 16px;
 }
@@ -477,6 +477,22 @@ a.site__footer-address:hover:before {
 .site__content-wrap .blue{
     color: #245098;
     font-weight: 700;
+}
+.site__content-wrap-prev{
+    border: 1px solid #cecece;
+    position: relative;
+    left: -3px;
+    margin: 20px auto 0;
+    width: 722px;
+    height: 539px;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 77px;
+}
+.site__content-wrap-prev img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 14px;
 }
 /* --------------- /site --------------- */
 
