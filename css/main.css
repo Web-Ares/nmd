@@ -855,9 +855,10 @@ a.site__footer-address:hover:before {
 
 .productions > div{
     display: block;
-    width: 100%;
     height: 246px;
+    margin-bottom: 10px;
     text-align: justify;
+    width: 100%;
 }
 .productions >div:after{
      content:"";
