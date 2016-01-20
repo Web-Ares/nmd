@@ -851,8 +851,8 @@ a.site__footer-address:hover:before {
     margin-bottom: 33px;
     font-weight: 700;
     margin-left: -10px;
+    margin-right: -1px;
 }
-
 .productions > div{
     display: block;
     height: 246px;
@@ -896,9 +896,13 @@ a.site__footer-address:hover:before {
     height: 246px;
     margin-bottom: 10px;
 }
+.productions > div::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
 .productions>div>div{
     display: inline-block;
-    margin-left: 12px;
 }
 .productions>div a{
     display: inline-block;
