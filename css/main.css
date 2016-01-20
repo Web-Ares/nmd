@@ -890,7 +890,7 @@ a.site__footer-address:hover:before {
 }
 .productions>div>div{
     display: inline-block;
-    margin-left: 7px;
+    margin-left: 12px;
 }
 .productions>div a{
     display: inline-block;
@@ -903,7 +903,7 @@ a.site__footer-address:hover:before {
     text-decoration: none;
 }
 .productions>div .big-image{
-    width: 604px;
+    width: 609px;
     height: 246px;
 }
 .productions>div .sub-image-1{
