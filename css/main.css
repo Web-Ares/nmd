@@ -962,6 +962,7 @@ a.site__footer-address:hover:before {
     left: 0;
     top: 0;
 }
+
 .productions__title, .productions__descr{
     position: relative;
     z-index: 5;
