@@ -940,7 +940,7 @@ a.site__footer-address:hover:before {
 .productions>div:nth-child(even) .sub-image-2{
     width: 411px;
     height: 119px;
-    padding-right: 0px;
+    padding-right: 0;
     overflow: hidden;
 }
 .productions>div a:before{
@@ -952,7 +952,6 @@ a.site__footer-address:hover:before {
     height: 100%;
     left: 0;
     top: 0;
-
 }
 .productions__title, .productions__descr{
     position: relative;
@@ -997,11 +996,18 @@ a.site__footer-address:hover:before {
 .news__content time{
     font-size: 12px;
 }
+.news__content p{
+    margin: 0;
+    line-height: 18px!important;
+}
 .news__title,
 .news__title > a{
+    margin: 0!important;
     padding: 11px 0 3px;
+    font-size: 14px!important;
     color: #385194;
     text-transform: uppercase;
+    text-decoration: none!important;
 }
 .news__more{
     margin-top: 8px;
