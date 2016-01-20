@@ -193,7 +193,7 @@ a.site__footer-address:hover:before {
 }
 .site__header-feedback{
     display: inline-block;
-    width: 154px;
+
     margin-left: 305px;
 }
 .site__header-feedback > a{
@@ -434,21 +434,21 @@ a.site__footer-address:hover:before {
     line-height: 25px;
     margin-bottom: 5px;
 }
-.site__content-wrap table{
+.site__content-wrap-table{
     width: 100%;
     border: 1px solid #245098;
     margin-bottom: 16px;
 }
-.site__content-wrap table thead tr{
+.site__content-wrap-table thead tr{
     height: 28px;
     text-align: center;
     color: #fff;
     background: #245098;
 }
-.site__content-wrap table thead tr th{
+.site__content-wrap-table thead tr th{
     vertical-align: middle;
 }
-.site__content-wrap table tbody tr td, .site__content-wrap table tbody tr th{
+.site__content-wrap-table tbody tr td, .site__content-wrap-table tbody tr th{
     text-align: center;
     vertical-align: middle;
     padding: 16px 0 13px;
@@ -458,11 +458,11 @@ a.site__footer-address:hover:before {
     border: 1px solid #245098;
 
 }
-.site__content-wrap table tbody tr th{
+.site__content-wrap-table tbody tr th{
      background: #e8e8e8;
      padding: 18px 0 16px;
  }
-.site__content-wrap table tbody tr td{
+.site__content-wrap-table tbody tr td{
     border: 1px solid #245098;
 }
 .site__content-wrap a{
@@ -849,6 +849,7 @@ a.site__footer-address:hover:before {
     color: #fff;
     margin-bottom: 33px;
     font-weight: 700;
+    margin-left: -10px;
 }
 
 .productions>div{
@@ -889,7 +890,7 @@ a.site__footer-address:hover:before {
 }
 .productions>div>div{
     display: inline-block;
-    margin-left: 6px;
+    margin-left: 7px;
 }
 .productions>div a{
     display: inline-block;
@@ -898,7 +899,7 @@ a.site__footer-address:hover:before {
     background-size: cover;
     padding-top: 28px;
     padding-left: 21px;
-    padding-right: 64px;
+    padding-right: 55px;
     text-decoration: none;
 }
 .productions>div .big-image{
@@ -948,7 +949,7 @@ a.site__footer-address:hover:before {
     content: "";
     position: absolute;
     background: url("../img/bg-preview.jpg");
-    opacity: 0.7;
+    opacity: 0.35;
     width: 100%;
     height: 100%;
     left: 0;
